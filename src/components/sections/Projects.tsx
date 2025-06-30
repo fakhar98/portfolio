@@ -6,8 +6,8 @@ import Button from '../ui/Button';
 const Projects: React.FC = () => {
   const [filter, setFilter] = useState<string>('all');
   
-  // Get unique categories from projects
-  const categories = ['all', ...new Set(projects.flatMap(project => project.tags))];
+  // Fixed array of categories
+  const categories = ['all', 'html', 'css', 'javascript', 'react', 'typescript', 'e-commerce'];
   
   // Filter projects based on selected category
   const filteredProjects = filter === 'all' 
