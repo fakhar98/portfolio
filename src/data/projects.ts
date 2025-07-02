@@ -66,9 +66,9 @@ export const projects: Project[] = [
     liveUrl: "https://fakhar98.github.io/E-commerce-Pick-n-Pay/"
   },
   {
-    title: "Music Player App",
+    title: "TuneFlow",
     description: "A modern music player web application with playlist management, audio controls, and responsive UI.",
-    image: "https://i.ibb.co/6bQ7QwM/music-player-app.png",
+    image: "https://i.ibb.co/p6ZXVVVg/Screenshot-2025-07-02-215426.png",
     tags: ["react", "typescript", "music", "audio"],
     githubUrl: "https://github.com/fakhar98/TuneFlow",
     liveUrl: "https://fakhar98.github.io/TuneFlow/"
