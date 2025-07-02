@@ -20,7 +20,7 @@ export const projects: Project[] = [
   {
     title: "Construction Company Website",
     description: "A modern construction company website with a portfolio section, service details, and contact form.",
-    image: "https://colorlib.com/wp-content/uploads/sites/2/construction-free-construction-website-template.jpg",
+    image: "https://colorlib.com/wp/wp-content/uploads/sites/2/construction-free-construction-website-template.jpg",
     tags: ["html", "css", "javascript"],
     githubUrl: "https://github.com/fakhar98/Constra",
     liveUrl: "https://fakhar98.github.io/Constra/"
@@ -64,5 +64,13 @@ export const projects: Project[] = [
     tags: ["react", "typescript", "e-commerce"],
     githubUrl: "https://github.com/fakhar98/E-commerce-Pick-n-Pay",
     liveUrl: "https://fakhar98.github.io/E-commerce-Pick-n-Pay/"
+  },
+  {
+    title: "Music Player App",
+    description: "A modern music player web application with playlist management, audio controls, and responsive UI.",
+    image: "https://i.ibb.co/6bQ7QwM/music-player-app.png",
+    tags: ["react", "typescript", "music", "audio"],
+    githubUrl: "https://github.com/fakhar98/TuneFlow",
+    liveUrl: "https://fakhar98.github.io/TuneFlow/"
   }
 ];
