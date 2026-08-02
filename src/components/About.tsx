@@ -8,7 +8,7 @@ export default function About() {
           {/* Image side */}
           <div className="relative">
             <div className="relative w-full max-w-md mx-auto lg:mx-0">
-              <div className="absolute inset-0 translate-x-4 translate-y-4 border border-white/10 rounded-2xl" />
+              <div className="absolute inset-0 lg:translate-x-4 lg:translate-y-4 border border-white/10 rounded-2xl" />
               <div className="relative rounded-2xl overflow-hidden border border-white/10">
                 <img
                   src="https://images.pexels.com/photos/34803969/pexels-photo-34803969.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -18,7 +18,7 @@ export default function About() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
               </div>
               {/* Floating badge */}
-              <div className="absolute -bottom-5 -right-5 bg-neutral-900 border border-white/10 rounded-xl px-5 py-3 shadow-2xl">
+              <div className="absolute bottom-0 right-0 lg:-bottom-5 lg:-right-5 bg-neutral-900 border border-white/10 rounded-xl px-5 py-3 shadow-2xl">
                 <p className="text-white font-bold text-2xl">1+</p>
                 <p className="text-gray-500 text-xs">Years of Experience</p>
               </div>
@@ -57,7 +57,7 @@ export default function About() {
                 { icon: User, label: 'Name', value: 'Fakhar Karamat' },
                 { icon: Calendar, label: 'Available', value: 'Remote / Full-time' },
                 { icon: MapPin, label: 'Location', value: 'Multan, PK' },
-                { icon: Mail, label: 'Email', value: 'fakharkaramat9@example.com' },
+                { icon: Mail, label: 'Email', value: 'fakharkaramat9@gmail.com' },
               ].map(({ icon: Icon, label, value }) => (
                 <div key={label} className="flex items-start gap-3">
                   <div className="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center flex-shrink-0 mt-0.5">
